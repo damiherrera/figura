@@ -15,4 +15,7 @@ public class Rectangulo {
 	}
 	
 	
+	public Double getPerimetro() {
+		return this.base*2 + this.altura*2;
+	}
 }
